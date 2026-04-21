@@ -1,0 +1,342 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #fff;
+}
+address{font-style: normal
+}
+ul,ol{list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1158px;
+        padding-inline:15px;
+        margin: 0 auto;
+}
+.section{
+    padding: 120px 0;
+}
+
+.header{
+    border-bottom: 1px solid #E7E9FC
+
+}
+
+.header-m{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.header-nav{
+    margin-left: 76px;
+    margin-right: auto;
+    display: flex;
+    flex: 0 0 auto;
+}
+
+.fast-travel-list{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+
+.adress-link{
+    display: flex;
+    gap: 40px;
+}
+
+
+h1,h2,h3,h4,h5,h6,p{
+    padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+}
+
+
+.web{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+        font-size: 18px;
+    
+        /* line-height: 21px; */
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+}
+.studio{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+        font-size: 18px;
+    
+        /* line-height: 21px; */
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2e2f42;
+}
+
+.logo{
+    margin: 0;
+}
+
+.fast-travel {
+        display: inline-flex;
+        vertical-align: middle;
+        padding: 24px 0;
+        font-weight: 500;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.fast-travel:focus, .fast-travel:hover{
+    color: #404bbf;
+}
+
+.link{
+        display: inline-flex;
+        vertical-align: middle;
+        padding: 24px 0;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.link:focus,.link:hover{
+    color:#404bbf;
+}
+
+.title-section{
+    padding:188px 0;
+    background: #2e2f42;
+}
+
+.title{
+    margin: 0 auto;
+    max-width: 496px;
+    font-weight: 700;
+    font-size: 56px;
+
+    /* line-height: 60px; */
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-container{
+    text-align: center;
+}
+
+.title-button{
+    border: none;
+    margin-top: 48px;
+    border-radius: 4px;
+    padding: 16px 32px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        background: #4d5ae5;
+        font-weight: 500;
+            font-size: 16px;      
+            /* line-height: 24px; */
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #fff;
+            cursor: pointer
+}
+.title-button:hover, .title-button:focus{
+    background-color: #404bbf;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.our-team{
+    padding: 120px 0;
+    background: #f4f4fd;
+}
+.title-two {
+    padding-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+
+    /* line-height: 40px; */
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.team{
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+.img-t{
+    display: block;
+   
+}
+
+.team-li{
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+    border-radius: 0 0 4px 4px;
+}
+
+.port-li{
+    flex-basis: calc((100% - 48px) / 3);
+}
+
+.img-p{
+    display: block;
+}
+
+.team-wrapper{
+    padding: 32px 16px;
+}
+
+.title-team{
+    padding-bottom: 8px;
+    font-weight: 500;
+        font-size: 20px;
+    
+        /* line-height: 24px; */
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.prof{
+    font-weight: 400;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+
+.footer-page{
+    padding:100px 0;
+
+    margin-bottom: 0;
+    background: #2e2f42;
+}
+
+.studio-white{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+        font-size: 18px;
+    
+        /* line-height: 21px; */
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #f4f4fd;
+}
+.portfol{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+}
+
+.portfol-s{
+padding: 120px 0;
+}
+
+.footer-text{
+    padding-top: 16px;
+        max-width: 264px;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+}
+.title-portfolio{
+    padding-bottom: 8px;
+    font-weight: 500;
+        font-size: 20px;
+    
+        /* line-height: 24px; */
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.port-wrapper{
+    padding:32px 16px;
+    padding-right: auto;
+    border-bottom: 1px solid #E7E9FC;
+        border-right: 1px solid #E7E9FC;
+        border-left: 1px solid #E7E9FC;
+}
+
+.text-portfolio{
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.feat-li{flex-basis: calc((100% - 3 * 24px) / 4);
+
+}
+
+.feat-ul{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.feat-s{
+    padding: 120px 0;
+}
+
+.feat-h{
+    padding-bottom: 8px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+        font-size: 20px;
+    
+        /* line-height: 24px; */
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.feat-p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
