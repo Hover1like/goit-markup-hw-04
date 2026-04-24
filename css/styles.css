@@ -361,6 +361,8 @@ padding: 120px 0;
 
 .linked-icons-ul{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 24px;
     margin-top: 8px;
 }
