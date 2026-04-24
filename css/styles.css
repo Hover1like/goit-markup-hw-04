@@ -348,3 +348,8 @@ padding: 120px 0;
         letter-spacing: 0.02em;
         color: #434455;
 }
+
+.svg-links{
+    background-color: #4D5AE5;
+    display:inline-block;
+}
