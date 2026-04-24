@@ -349,20 +349,6 @@ padding: 120px 0;
         color: #434455;
 }
 
-.svg-links{
-    fill: #f4f4fd;
-    padding: 12px;
-}
-
-.icons-div{
-    display: flex;
-    width: 40px;
-    height: 40px;
-    padding: 12px;
-    border-radius: 100%;
-    background-color: #4D5AE5;
-}
-
 .our-features-icon-div{
     border: 1px solid #8e8f99;
     border-radius: 4px;
@@ -371,4 +357,30 @@ padding: 120px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.linked-icons-ul{
+    display: flex;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+.linked-icon-bg{
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.linked-icon-svg{
+    fill: #f4f4fd;
+}
+
+.linked-icon-bg:hover,
+.linked-icon-bg:focus {
+    background-color: #404bbf;
 }
