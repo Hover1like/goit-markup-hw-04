@@ -349,13 +349,16 @@ padding: 120px 0;
         color: #434455;
 }
 
-.links{
-    background-color: #4D5AE5;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    weight:40px;
+.svg-links{
+    fill: #f4f4fd;
+    padding: 12px;
+}
+
+.icons-div{
+    display: flex;
+    width: 40px;
     height: 40px;
-    padding:12px;
-    border-radius: 12px;
+    padding: 12px;
+    border-radius: 100%;
+    background-color: #4D5AE5;
 }
